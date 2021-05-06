@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+Closures are functions that are used together that use surrounding variables.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,10 +66,16 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
+a. Where is closure used in this code? How can you tell? 
+The closure is used in the return function of the personalDice function 
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+Calling dansRoll will always cause the name of the dice roll to be the same but the actual value of the roll will change.
+
 c. What is the lexical scope of `newRoll`? 
 
+newRoll is only accessible from within the function that is inside of personalDice.
 
 ### Task 3 - Stretch Goals
 
